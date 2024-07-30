@@ -9,22 +9,29 @@
     <meta name="keywords" content="html, css" />
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet" />
     <title>Ana Galvez | Social links profile</title>
   </head>
   <body>
-    <section class="container-links">
-      <article class="img-name-country-description">
+    <div class="container">
+      <article class="img-name-country-description" role="contentinfo">
+        <img src="./assets/images/avatar-jessica.jpeg" alt="Jessica's photo" />
         <h1>Jessica Randall</h1>
-        <h2>London, United Kingdom</h2>
-        <p>"Front-end developer and avid reader."</p>
+        <p class="city">London, United Kingdom</p>
+        <p class="description">"Front-end developer and avid reader."</p>
       </article>
-    </section>
-    <section class="links-buttons">
-      <button class="btn-github">GitHub</button>
-      <button class="btn-linkedin">LinkedIn</button>
-      <button class="btn-twitter">Twitter</button>
-      <button class="btn-instagram">Instagram</button>
-      <button class="btn-facebook">Facebook</button>
-    </section>
+      <article class="links-buttons" aria-label="social links buttons">
+        <button class="btn-github">GitHub</button>
+        <button class="btn-linkedin">LinkedIn</button>
+        <button class="btn-twitter">Twitter</button>
+        <button class="btn-instagram">Instagram</button>
+        <button class="btn-facebook">Facebook</button>
+      </article>
+    </div>
   </body>
 </html>
