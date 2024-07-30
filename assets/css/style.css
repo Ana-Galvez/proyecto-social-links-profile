@@ -42,7 +42,7 @@ body{
   align-items: center;
   text-align: center;
   background-color: var(--grey-800);
-  min-width: 250px;
+  min-width: 275px;
   height:75vh;
   border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -75,6 +75,7 @@ body{
 
 .img-name-country-description .description{
   font-weight: 400;
+  font-size: 0.7rem;
   margin-bottom: 20px;
 }
 
@@ -92,6 +93,7 @@ a{
 a > button{
   color:var(--white);
   background-color: var(--grey-700);
+  border:none;
   font-size: 1rem;
   font-weight: 600;
   width: 100%;
@@ -104,3 +106,13 @@ a > button{
   cursor: pointer;
 }
 
+
+/* media queries */
+@media screen and (min-width:450px){
+  .container{
+    min-width: 400px;
+  }
+  .img-name-country-description .description{
+    font-size: 1rem;
+  }
+}
