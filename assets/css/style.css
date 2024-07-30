@@ -1,4 +1,4 @@
-:root{
+:root {
   --green: hsl(75, 94%, 57%);
   --white: hsl(0, 0%, 100%);
   --grey-700: hsl(0, 0%, 20%);
@@ -17,7 +17,10 @@ body {
   min-height: 100dvh;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   text-wrap: balance;
 }
 
@@ -26,7 +29,7 @@ p {
 }
 
 /* Estilos */
-body{
+body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +38,7 @@ body{
   font-family: "Inter", sans-serif;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,7 +46,7 @@ body{
   text-align: center;
   background-color: var(--grey-800);
   min-width: 275px;
-  height:75vh;
+  height: 75vh;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -51,7 +54,7 @@ body{
   -o-border-radius: 20px;
 }
 
-.img-name-country-description img{
+.img-name-country-description img {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -60,59 +63,63 @@ body{
   width: 45%;
 }
 
-.img-name-country-description h1{
+.img-name-country-description h1 {
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 3px;
 }
 
-.img-name-country-description .city{
-  color:var(--green);
+.img-name-country-description .city {
+  color: var(--green);
   font-weight: 600;
-  margin-top:-10px;
+  margin-top: -10px;
   margin-bottom: 25px;
 }
 
-.img-name-country-description .description{
+.img-name-country-description .description {
   font-weight: 400;
   font-size: 0.7rem;
   margin-bottom: 20px;
 }
 
-.links-buttons{
+.links-buttons {
   display: flex;
   flex-direction: column;
   /* background-color: red; */
   width: 80%;
 }
 
-a{
-  margin-bottom: 15px; 
+a {
+  margin-bottom: 15px;
 }
 
-a > button{
-  color:var(--white);
+a > button {
+  color: var(--white);
   background-color: var(--grey-700);
-  border:none;
+  border: none;
   font-size: 1rem;
   font-weight: 600;
   width: 100%;
-  padding:10px;
+  padding: 10px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  cursor: pointer;
+  cursor: url("https://img.icons8.com/?size=30&id=59799&format=png"), auto;
 }
 
+a > button:hover {
+  color: var(--grey-700);
+  background-color: var(--green);
+}
 
 /* media queries */
-@media screen and (min-width:450px){
-  .container{
+@media screen and (min-width: 450px) {
+  .container {
     min-width: 400px;
   }
-  .img-name-country-description .description{
+  .img-name-country-description .description {
     font-size: 1rem;
   }
 }
