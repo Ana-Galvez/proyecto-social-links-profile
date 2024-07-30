@@ -78,3 +78,29 @@ body{
   margin-bottom: 20px;
 }
 
+.links-buttons{
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  width: 80%;
+}
+
+a{
+  margin-bottom: 15px; 
+}
+
+a > button{
+  color:var(--white);
+  background-color: var(--grey-700);
+  font-size: 1rem;
+  font-weight: 600;
+  width: 100%;
+  padding:10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+
