@@ -107,6 +107,11 @@ a > button {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   cursor: url("https://img.icons8.com/?size=30&id=59799&format=png"), auto;
+  transition: color 1s, background-color 1s;
+  -webkit-transition: color 1s, background-color s;
+  -moz-transition: color 1s, background-color s;
+  -ms-transition: color 1s, background-color s;
+  -o-transition: color 1s, background-color s;
 }
 
 a > button:hover {
