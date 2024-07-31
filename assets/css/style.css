@@ -114,6 +114,10 @@ a > button {
   -o-transition: color 1s, background-color s;
 }
 
+button > i{
+  font-size: 1.25rem;
+}
+
 a > button:hover {
   color: var(--grey-700);
   background-color: var(--green);
