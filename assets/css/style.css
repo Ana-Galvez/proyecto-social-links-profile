@@ -32,12 +32,27 @@ p {
 /* Estilos */
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--grey-900);
   color: var(--white);
   font-family: "Inter", sans-serif;
 }
+
+select{
+  align-self: flex-start;
+}
+
+/* light mode */
+body:has(option[value="light"]:checked),
+body:has(option[value="light"]:checked) img{
+  background-color: aliceblue;
+  filter:invert(1);
+  -webkit-filter:invert(1);
+}
+
+
 
 .container {
   display: flex;
@@ -136,7 +151,7 @@ a > button:hover {
 
 @media screen and (max-height: 1200px) {
   .container {
-    height: 100vh;
+    height: 97vh;
   }
 
 }
